@@ -8,7 +8,7 @@ Project Rover is an on-going, in-development open-source project. It is licensed
 
 Contributions are welcomed; yea, encouraged. 
 
-With all contributions, please bear in mind that Bot-In-a-Box adheres to the Contributor Covenant. As such, abuse, cyber-harrassment, and trolling are not permitted, because if it's not fun for somebody, it shouldn't be fun for anybody.
+With all contributions, please bear in mind that Bot-In-a-Box adheres to the [Contributor Covenant](code-of-conduct.html). As such, abuse, cyber-harrassment, and trolling are not permitted, because if it's not fun for somebody, it shouldn't be fun for anybody.
 
 Have an idea for an improvement, found a problem, or can't figure something out? Create an Issue on the repository at [https://github.com/BotInABoxER/project-rover/issues](https://github.com/BotInABoxER/project-rover/issues). More information about Issues on GitHub can be found at [https://help.github.com/en/articles/about-issues](https://help.github.com/en/articles/about-issues).
 
