@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Materials
-parent: Setup
-nav_order: 2
+parent: Materials
+grand_parent: Setup
 ---
 
 ### Equipment
