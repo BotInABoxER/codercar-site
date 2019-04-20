@@ -24,7 +24,7 @@ Current Version:
 0.5.1
 {: .label .label-green }
 
-<video class="js-plyr" controls playsinline poster="" src="/assets/images/0.5.1/0.5.1-drift.mp4">
+<video class="js-plyr d-block" controls playsinline poster="" src="/assets/images/0.5.1/0.5.1-drift.mp4">
   <source src="{{ "/assets/images/0.5.1/0.5.1-drift.mp4" | absolute_url }}" type="video/mp4" size="480">
 </video>
 
