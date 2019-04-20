@@ -2,7 +2,6 @@
 layout: default
 title: Body
 parent: Printing
-grand_parent: Setup
 nav_order: 3
 ---
 

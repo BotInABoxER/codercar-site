@@ -2,7 +2,6 @@
 layout: default
 title: Battery Box Lid
 parent: Printing
-grand_parent: Setup
 nav_order: 6
 ---
 

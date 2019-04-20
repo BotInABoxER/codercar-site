@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Materials
+title: Equipment
 parent: Materials
-grand_parent: Setup
 ---
 
 ### Equipment

@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Printing
-parent: Setup
 has_children: true
-nav_order: 2
+nav_order: 4
 ---
 
 This is how you print Project Rover

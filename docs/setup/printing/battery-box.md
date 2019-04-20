@@ -2,7 +2,6 @@
 layout: default
 title: Battery Box
 parent: Printing
-grand_parent: Setup
 nav_order: 5
 ---
 

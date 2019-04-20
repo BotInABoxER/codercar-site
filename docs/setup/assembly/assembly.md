@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Assembly
-parent: Setup
 has_children: true
-nav_order: 3
+nav_order: 5
 ---
 
 Here's how you assemble Project Rover

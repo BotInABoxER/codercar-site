@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Printing
-parent: Finding Printers
-grand_parent: Setup
+title: Finding Printers
+parent: Printing
 nav_order: 1
 ---
 
