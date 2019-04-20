@@ -23,3 +23,11 @@ Current Version:
 
 0.5.1
 {: .label .label-green }
+
+<video id="drifting" poster="#" controls>
+  <source src="/assets/images/0.5.1/0.5.1-drift.mp4" type="video/mp4">
+  <source src="#" type="video/webm">
+  <!-- Captions are optional -->
+  <track kind="captions" label="English captions" src="video-caption.vtt" srclang="en" default>
+</video><script type="text/javascript">plyr.setup("#drifting");
+</script>
