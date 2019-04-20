@@ -29,8 +29,3 @@ Current Version:
   <source src="{{ "/assets/images/0.5.1/0.5.1-drift.mp4" | absolute_url }}" type="video/mp4" size="480">
 </video>
 </div>
-
-<script type="text/javascript">/*<![CDATA[*/
-const players = Array.from(document.querySelectorAll('.js-player')).map(p => new Plyr(p));
-const plyrs = Array.from(document.querySelectorAll('.js-plyr')).map(plyrs => new Plyr(plyrs));
-/*]]>*/</script>
