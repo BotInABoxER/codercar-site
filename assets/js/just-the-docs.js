@@ -175,3 +175,10 @@ else if (document.addEventListener) document.addEventListener('DOMContentLoaded'
 else document.attachEvent('onreadystatechange', function(){
     if (document.readyState=='complete') ready();
 });
+
+// Initialize all plyr.io instances
+
+/*<![CDATA[*/
+const players = Array.from(document.querySelectorAll('.js-player')).map(p => new Plyr(p));
+const plyrs = Array.from(document.querySelectorAll('.js-plyr')).map(plyrs => new Plyr(plyrs));
+/*]]>*/

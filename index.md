@@ -24,10 +24,11 @@ Current Version:
 0.5.1
 {: .label .label-green }
 
-<video id="drifting" poster="#" controls>
-  <source src="/assets/images/0.5.1/0.5.1-drift.mp4" type="video/mp4">
-  <source src="#" type="video/webm">
-  <!-- Captions are optional -->
-  <track kind="captions" label="English captions" src="video-caption.vtt" srclang="en" default>
-</video><script type="text/javascript">plyr.setup("#drifting");
-</script>
+<video class="js-plyr" controls playsinline poster="" src="/assets/images/0.5.1/0.5.1-drift.mp4">
+  <source src="{{ "/assets/images/0.5.1/0.5.1-drift.mp4" | absolute_url }}" type="video/mp4" size="480">
+</video>
+
+<script type="text/javascript">/*<![CDATA[*/
+const players = Array.from(document.querySelectorAll('.js-player')).map(p => new Plyr(p));
+const plyrs = Array.from(document.querySelectorAll('.js-plyr')).map(plyrs => new Plyr(plyrs));
+/*]]>*/</script>
