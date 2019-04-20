@@ -16,7 +16,7 @@ On this site, you'll find all the information you need to put together a Project
 
 Project Rover is currently in full-time development, so expect things to change (*drastically*). Listed below is the link to download the STL printing files to 3D-print your own Project Rover.
 
-[Get the Code!](https://github.com/botinaboxer/project-rover){: .btn .btn-purple }
+[Get the Code!](https://github.com/botinaboxer/project-rover){: .btn .btn-blue }
 
 
 Current Version:

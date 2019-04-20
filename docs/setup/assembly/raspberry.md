@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Body
+title: Raspberry Pi Zero W
 parent: Assembly
 grand_parent: Setup
 nav_order: 3
 ---
 
-Assembling the body:
+Attaching the Raspberry Pi Zero W to the body:
