@@ -1,0 +1,11 @@
+{% if include.poster != nil %}{% capture poster %}/assets/images/0.5.1/{{ include.poster }}{% endcapture %}{% else %}
+{% assign poster = # %}
+{% endif %}
+
+{% capture foureighty %}/assets/images/0.5.1/{{ include.foureighty }}{% endcapture %}
+
+<div class="embed-container">
+<video width="100%" height="100%" class="js-plyr d-block" controls data-plyr-config='{ "controls": "speed" }' playsinline poster="{{ poster | absolute_url }}">
+  <source src="{{ foureighty | absolute_url }}" type="video/mp4" size="480">
+</video>
+</div>
