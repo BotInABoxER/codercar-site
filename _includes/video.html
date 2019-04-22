@@ -4,8 +4,8 @@
 
 {% capture foureighty %}/assets/images/0.5.1/{{ include.foureighty }}{% endcapture %}
 
-<div class="container">
-<video width="100%" height="100%" class="js-plyr d-block video-embed" controls data-plyr-config='{ "controls": "speed" }' playsinline poster="{{ poster | absolute_url }}">
+<div class="plyr-embed">
+<video width="100%" height="100%" id="player" class="js-plyr d-block" controls data-plyr-config='{ "controls": "speed" }' playsinline poster="{{ poster | absolute_url }}">
   <source src="{{ foureighty | absolute_url }}" type="video/mp4" size="480">
 </video>
 </div>
