@@ -1,28 +1,28 @@
-{% if include.poster != nil %}{% capture poster %}{ site.url }/assets/videos/{{ include.poster }}{% endcapture %}
+{% if include.poster != nil %}{% capture poster %}{{ site.url }}/assets/videos/{{ include.poster }}{% endcapture %}
 {% else %} {% assign poster = # %} {% endif %}
 
-{% if include.foureighty != nil %}{% capture foureighty %}{ site.url }/assets/videos/{{ include.foureighty }}{% endcapture %}
+{% if include.foureighty != nil %}{% capture foureighty %}{{ site.url }}/assets/videos/{{ include.foureighty }}{% endcapture %}
 {% else %} {% assign foureighty = # %} {% endif %}
 
-{% if include.fiveseventysix != nil %}{% capture fiveseventysix %}{ site.url }/assets/videos/{{ include.fiveseventysix }}{% endcapture %}
+{% if include.fiveseventysix != nil %}{% capture fiveseventysix %}{{ site.url }}/assets/videos/{{ include.fiveseventysix }}{% endcapture %}
 {% else %} {% assign fiveseventysix = # %} {% endif %}
 
-{% if include.seventwenty != nil %}{% capture seventwenty %}{ site.url }/assets/videos/{{ include.seventwenty }}{% endcapture %}
+{% if include.seventwenty != nil %}{% capture seventwenty %}{{ site.url }}/assets/videos/{{ include.seventwenty }}{% endcapture %}
 {% else %} {% assign seventwenty = # %} {% endif %}
 
-{% if include.teneighty != nil %}{% capture teneighty %}{ site.url }/assets/videos/{{ include.teneighty }}{% endcapture %}
+{% if include.teneighty != nil %}{% capture teneighty %}{{ site.url }}/assets/videos/{{ include.teneighty }}{% endcapture %}
 {% else %} {% assign teneighty = # %} {% endif %}
 
-{% if include.twentyonesixty != nil %}{% capture twentyonesixty %}{ site.url }/assets/videos/{{ include.twentyonesixty }}{% endcapture %}
+{% if include.twentyonesixty != nil %}{% capture twentyonesixty %}{{ site.url }}/assets/videos/{{ include.twentyonesixty }}{% endcapture %}
 {% else %} {% assign twentyonesixty = # %} {% endif %}
 
-{% if include.download != nil %}{% capture download %}{ site.url }/assets/videos/{{ include.download }}{% endcapture %}
+{% if include.download != nil %}{% capture download %}{{ site.url }}/assets/videos/{{ include.download }}{% endcapture %}
 {% else %} {% assign download = # %} {% endif %}
 
-{% if include.encaps != nil %}{% capture encaps %}{ site.url }/assets/captions/{{ include.encaps }}{% endcapture %}
+{% if include.encaps != nil %}{% capture encaps %}{{ site.url }}/assets/captions/{{ include.encaps }}{% endcapture %}
 {% else %} {% assign encaps = # %} {% endif %}
 
-{% if include.frcaps != nil %}{% capture frcaps %}{ site.url }/assets/captions/{{ include.frcaps }}{% endcapture %}
+{% if include.frcaps != nil %}{% capture frcaps %}{{ site.url }}/assets/captions/{{ include.frcaps }}{% endcapture %}
 {% else %} {% assign frcaps = # %} {% endif %}
 
 <div class="video">
