@@ -1,32 +1,24 @@
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  {% if page.description %}
-  <meta name="Description" content="{{ page.description }}">
-  {% endif %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"> {% if page.description %}
+    <meta name="Description" content="{{ page.description }}"> {% endif %}
 
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/just-the-docs.css" | absolute_url }}">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ " /assets/css/just-the-docs.css " | absolute_url }}">
+    <link rel="stylesheet" href="https://unpkg.com/plyr@3/dist/plyr.css">
+    <script type="text/javascript" src="{{ " /assets/js/vendor/lunr.min.js " | absolute_url }}"></script>
+    <script type="text/javascript" src="{{ " /assets/js/just-the-docs.js " | absolute_url }}"></script>
 
-  {% if site.ga_tracking != nil %}
+    {% if site.ga_tracking != nil %}
     <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', '{{ site.ga_tracking }}', '{{ site.url }}');
-      ga('send', 'pageview');
+        window.ga = window.ga || function() {
+            (ga.q = ga.q || []).push(arguments)
+        };
+        ga.l = +new Date;
+        ga('create', '{{ site.ga_tracking }}', '{{ site.url }}');
+        ga('send', 'pageview');
     </script>
     <script async src="https://www.google-analytics.com/analytics.js"></script>
-  {% endif %}
-
-  {% if site.search_enabled != nil %}
-    <script type="text/javascript" src="{{ "/assets/js/vendor/lunr.min.js" | absolute_url }}"></script>
-  {% endif %}
-  <script type="text/javascript" src="{{ "/assets/js/just-the-docs.js" | absolute_url }}"></script>
-    
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/plyr.css" | absolute_url }}">
-    
-  <script src="{{ "/assets/js/plyr.min.js" | absolute_url }}" type="text/javascript"></script>
-    
-  <script src="{{ "/assets/js/plyr-init.js" | absolute_url }}" type="text/javascript"></script>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% endif %} {% if site.search_enabled != nil %}
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {% endif %}
 </head>

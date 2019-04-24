@@ -1,12 +1,39 @@
-{% if include.poster != nil %}{% capture poster %}/assets/images/0.5.1/{{ include.poster }}{% endcapture %}{% else %}
-{% assign poster = # %}
-{% endif %}
+{% if include.poster != nil %}{% capture poster %}{ site.url }/assets/videos/{{ include.poster }}{% endcapture %}
+{% else %} {% assign poster = # %} {% endif %}
 
-{% capture foureighty %}/assets/images/0.5.1/{{ include.foureighty }}{% endcapture %}
+{% if include.foureighty != nil %}{% capture foureighty %}{ site.url }/assets/videos/{{ include.foureighty }}{% endcapture %}
+{% else %} {% assign foureighty = # %} {% endif %}
 
-<div class="plyr-embed" id="{{ include.id }}">
-<video width="100%" height="100%" id="player" class="js-plyr d-block" controls data-plyr-config='{ "controls": "speed" }' playsinline poster="{{ poster | absolute_url }}">
-  <source src="{{ foureighty | absolute_url }}" type="video/mp4" size="480">
-</video>
+{% if include.fiveseventysix != nil %}{% capture fiveseventysix %}{ site.url }/assets/videos/{{ include.fiveseventysix }}{% endcapture %}
+{% else %} {% assign fiveseventysix = # %} {% endif %}
+
+{% if include.seventwenty != nil %}{% capture seventwenty %}{ site.url }/assets/videos/{{ include.seventwenty }}{% endcapture %}
+{% else %} {% assign seventwenty = # %} {% endif %}
+
+{% if include.teneighty != nil %}{% capture teneighty %}{ site.url }/assets/videos/{{ include.teneighty }}{% endcapture %}
+{% else %} {% assign teneighty = # %} {% endif %}
+
+{% if include.twentyonesixty != nil %}{% capture twentyonesixty %}{ site.url }/assets/videos/{{ include.twentyonesixty }}{% endcapture %}
+{% else %} {% assign twentyonesixty = # %} {% endif %}
+
+{% if include.download != nil %}{% capture download %}{ site.url }/assets/videos/{{ include.download }}{% endcapture %}
+{% else %} {% assign download = # %} {% endif %}
+
+{% if include.encaps != nil %}{% capture encaps %}{ site.url }/assets/captions/{{ include.encaps }}{% endcapture %}
+{% else %} {% assign encaps = # %} {% endif %}
+
+{% if include.frcaps != nil %}{% capture frcaps %}{ site.url }/assets/captions/{{ include.frcaps }}{% endcapture %}
+{% else %} {% assign frcaps = # %} {% endif %}
+
+<div class="video">
+    <video width="100%" height="100%" class="js-plyr d-block vid-embed" controls crossorigin playsinline poster="{% if poster !=# %}{{ poster | absolute_url }}{% endif %}">{% if foureighty != # %}
+        <source src="{{ foureighty }}" type="video/mp4" size="480"> {% endif %} {% if fiveseventysix != # %}
+        <source src="{{ fiveseventysix | absolute_url }}" type="video/mp4" size="576"> {% endif %} {% if seventwenty != # %}
+        <source src="{{ seventwenty | absolute_url }}" type="video/mp4" size="720"> {% endif %} {% if teneighty != # %}
+        <source src="{{ teneighty | absolute_url }}" type="video/mp4" size="1080"> {% endif %} {% if twentyonesixty != # %}
+        <source src="{{ twentyonesixty | absolute_url }}" type="video/mp4" size="2160"> {% endif %} {% if encaps != # %}
+        <track kind="captions" label="English" srclang="en" src="{{ encaps | absolute_url }}" default> {% endif %} {% if frcaps != # %}
+        <track kind="captions" label="Français" srclang="fr" src=" {{ frcaps | absolute_url }}"> {% endif %} {% if download != # %}
+        <a href="{ download | absolute_url }" download>Download</a> {% endif %}
+    </video>
 </div>
-<script>const player = Plyr.setup('#{{ include.id }}');</script>

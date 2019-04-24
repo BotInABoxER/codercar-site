@@ -24,4 +24,4 @@ Current Version:
 0.5.1
 {: .label .label-green }
 
-{% include video.html foureighty="0.5.1-drift.mp4" id="drift" %}
+{% include video.html foureighty="0.5.1-drift.mp4" %}
