@@ -1,0 +1,5 @@
+{% if include.src != nil %}{% capture source %}{{ site.url }}/assets/images/0.5.1/{{ include.src }}{% endcapture %}
+{% else %} {% assign source = # %} {% endif %}
+<p class="center">
+<img src="{{ source | absolute_url }}" height="40%" width="40%" alt="{{ include.alt }}" data-title="{{ include.title }}" data-caption="{{ include.caption }}" class="intense" />
+</p>

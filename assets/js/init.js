@@ -22,7 +22,11 @@ var controls = [
 
 // Initializes all plyr.js instances that have the class vid-embed
 const players = new Plyr('.vid-embed', {
-  controls  
+  controls
 });
 
-console.log("yeet")
+window.onload = function() {
+	// Intensify all images with the 'intense' classname.
+    var elements = document.querySelectorAll( '.intense' );
+	Intense( elements );
+}
