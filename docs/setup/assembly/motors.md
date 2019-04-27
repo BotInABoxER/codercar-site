@@ -26,7 +26,9 @@ If you're confident and OK with soldering, here's how to ready your kit's motors
 
 Remember, soldering isn't about getting a big blob of metal on a wire, or about glueing/welding two pieces of metal together. It's all about ensuring an electrical contact between two pieces of metal, so electrons can flow freely between them.
 
-Soon, a slideshow will be added with some helpful images for each of the steps listed above.
+Below is a slideshow with some helpful images for each of the steps listed above.
+
+{% include gallery.html num = 10 links = "solder-setup-2wires.jpg,strippers-clipping.jpg,strippers-stripping.jpg,stripped-4wire.jpg,motor-bentwires.jpg,motor-twistedwires.jpg,motor-solderedwires.jpg,electrical-tape-scissors.jpg,motor-snipping-tape.jpg,motor-finished.jpg" titles="Soldering Setup,Snipping a Jumper Wire,Stripping a Snipped Wire,Prepared Wires,Wires in Place,Wires Twisted,Soldered Wires,Snipping some Electrical Tape,Covering with Tape,Finished Motor" %}
 
 Next, you're going to want to get 12 M3 screws and an M3 screwdriver to attach the motors to the Body:
 

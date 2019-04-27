@@ -30,3 +30,13 @@ window.onload = function() {
     var elements = document.querySelectorAll( '.intense' );
 	Intense( elements );
 }
+
+// Initialize Blueimp Gallery instances
+
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
