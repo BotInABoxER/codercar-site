@@ -32,16 +32,16 @@ Below is a slideshow with some helpful images for each of the steps listed above
 
 Next, you're going to want to get 12 M3 screws and an M3 screwdriver to attach the motors to the Body:
 
-{% include image.html title="Preparing to Screw in the Motors" alt="An orange and black M3 screwdriver sits on a table beside four yellow motors with two wires sticking out of each; 12 black M3 screws and a grey 3D-printed robot car chassis with two blue Motor Controllers and a green Raspberry Pi Zero W screwed into it lay nearby" src="motors-presetup.jpg" %}
+{% include image.html title="Preparing to Screw in the Motors" alt="An orange and black M3 screwdriver sits on a table beside four yellow motors with two wires sticking out of each; 12 black M3 screws and a grey 3D-printed robot car chassis with two blue Motor Controllers and a green Raspberry Pi Zero W screwed into it lay nearby" links="motors-presetup.jpg" %}
 
 Place a motor in a slot as shown below, and carefully screw in an M3 screw to the hole on the bottom. Once it is as tight as it can get (make sure it is lined up with the hole in the motor, otherwise you could risk snapping the motor mount), screw in the top screw as well.
 
-{% include image.html title="Outside Screws" alt="An orange and black M3 screwdriver sits on a table beside a yellow motor; the motor is attached to a grey post by two black M3 screws, and its white shaft protrudes from the motor to the left of the image" src="motor-outsidescrews.jpg" %}
+{% include image.html title="Outside Screws" alt="An orange and black M3 screwdriver sits on a table beside a yellow motor; the motor is attached to a grey post by two black M3 screws, and its white shaft protrudes from the motor to the left of the image" links="motor-outsidescrews.jpg" %}
 
 Next, screw in the remaining screw by hand. It might be a bit tricky to start, and if you can fit an Allen Key in the slot to do the job, it'll work, but the screw hole should have enough clearance to allow you to tighten the screw in by hand, and tightening it in with an Allen Key can be tedious work. Besides, it is only there to ensure the motor doesn't wobble, not so much to secure it in place. Again, make sure it's actually tightening into one of the motor's holes, and not the side of it.
 
-{% include image.html title="Inside Screw" alt="A yellow motor is attached to a grey post with a black M3 screw. To the motor's right is a Motor Controller, also screwed in place" src="motor-insidescrews.jpg" %}
+{% include image.html title="Inside Screw" alt="A yellow motor is attached to a grey post with a black M3 screw. To the motor's right is a Motor Controller, also screwed in place" links="motor-insidescrews.jpg" %}
 
 Once your motors are in place, screw in the male Dupont part of each's wires to one of the screw terminals on the Body, like so:
 
-{% include image.html title="Screwing in the Jumper Wires" alt="An orange and black Philips J0 screwdriver screws in a red jumper wire, that extended from a yellow motor to the right, onto a Motor Controller" src="motorcontroller-philipsscrews.jpg" %}
+{% include image.html title="Screwing in the Jumper Wires" alt="An orange and black Philips J0 screwdriver screws in a red jumper wire, that extended from a yellow motor to the right, onto a Motor Controller" links="motorcontroller-philipsscrews.jpg" %}

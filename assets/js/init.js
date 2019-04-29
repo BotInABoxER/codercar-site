@@ -22,20 +22,12 @@ var controls = [
 
 // Initializes all plyr.js instances that have the class vid-embed
 const players = new Plyr('.vid-embed', {
-  controls
+    controls
 });
 
-window.onload = function() {
-	// Intensify all images with the 'intense' classname.
-    var elements = document.querySelectorAll( '.intense' );
-	Intense( elements );
-}
-
 // Initialize Blueimp Gallery instances
-
 blueimp.Gallery(
-    document.getElementById('links').getElementsByTagName('a'),
-    {
+    document.getElementById('links').getElementsByTagName('a'), {
         container: '#blueimp-gallery-carousel',
         carousel: true
     }

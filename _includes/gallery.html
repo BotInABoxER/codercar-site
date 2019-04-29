@@ -3,7 +3,7 @@
 {% assign links = include.links | split: ',' %}
 {% assign titles = include.titles | split: ',' %}
 
-{% assign num = include.num | minus: 1 %}
+{% if include.num != nil %}{% assign num = include.num | minus: 1 %}{% else %}{% assign num = links | length | plus: 1 %}{% endif %}
 
 <div id="links">
   {% for i in (0..num) %}

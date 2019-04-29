@@ -11,4 +11,4 @@ Carefully and slowly screw in the corners of the Pi, one-at-a-time, going in a d
 
 When you're done, it should look something like this:
 
-{% include image.html title="Raspberry Pi in Place" alt="A green, rectangular microcomputer with an exposed processor, microSD card, miniHDMI port, two Micro USB ports, and a 40 pin header sits in a grey, 3D-printed robot car chassis. Two silver M2.5 screws are attached to the holes on each of its four corners" src="pimount-finished.jpg" %}
+{% include image.html title="Raspberry Pi in Place" alt="A green, rectangular microcomputer with an exposed processor, microSD card, miniHDMI port, two Micro USB ports, and a 40 pin header sits in a grey, 3D-printed robot car chassis. Two silver M2.5 screws are attached to the holes on each of its four corners" links="pimount-finished.jpg" %}
