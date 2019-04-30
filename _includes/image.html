@@ -14,13 +14,17 @@
 
 
 <script type="text/javascript">
-    var items = [
     {% for i in (0..num) %}
-    {
+    var newItems{{ forloop.index }} = {
         src: '{{ baseurl }}{{ links[i] }}',
         w: {{ width }},
         h: {{ height }},
         title: '{{ titles[i] }}'
-    }{% if forloop.index < forloop.length %},{% endif %}{% endfor %}
-];
+    };
+
+    items.push(newItems{{ forloop.index }});
+    {% endfor %}
+
+
+console.log(items);
 </script>
