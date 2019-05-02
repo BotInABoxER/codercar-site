@@ -20,3 +20,4 @@ The following changes are due in 0.5.2:
 - Completed LED Matrix Mount
 - Completed HC-SR04 Sensor Mount
 - Breadboard Mount
+- Version Française
