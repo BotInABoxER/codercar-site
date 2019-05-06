@@ -13,6 +13,6 @@ Project Rover has other mounts, too:
 - Breadboard Mount - goes on top of the Top Mount
 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/KxG5ZEV" data-context="false"><a href="//imgur.com/KxG5ZEV">Project Rover - v. 0.5.2 - Breadboard Mount Print Timelapse</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<p class="center"><blockquote class="imgur-embed-pub" lang="en" data-id="a/KxG5ZEV" data-context="false"><a href="//imgur.com/KxG5ZEV">Project Rover - v. 0.5.2 - Breadboard Mount Print Timelapse</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>s
 
 And more to come...
