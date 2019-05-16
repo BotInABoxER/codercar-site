@@ -9,27 +9,106 @@ nav_order: 3
 
 This page is a list of materials that you will need to build your very own Project Rover robot.
 
-Included are e-commerce links to purchase, and their current approximate prices in Canadian dollars (* means shipping is included in the price).
+**Every product link on this page points to an eBay listing, but you can also buy the parts you need on the [Bot-In-a-Box Store](https://botinabox.ca/shop). On the store you'll also find Amazon.ca links for many of the same products, if you go onto a given product's page. To be honest, I would appreciate it if you bought the products you need from one of the eBay/Amazon links, and not from the store itself. (I make a bit of money off each sale either way, but with eBay/Amazon you don't pay any extra because I don't have to mark the orders up, and they'll ship faster.) Anyway, that's my little disclaimer. Enjoy Project Rover's Site!**
 
 It's worth mentioning that Project Rover is a DIY kit, and while it has been designed to be as easy to build as possible, the process is quite involved, and requires access to both a 3D printer and a soldering iron. It is recommended to read through at least the Printing and Assembly portions of this site before diving in and purchasing all the components you'll need, if only to ensure you know into what it is you're getting yourself.
 
+The following items are necessary for building a **Project Rover Deci** (basically the absolute minimum to get a Project Rover up and rolling):
+
+- [A Raspberry Pi Zero W with soldered male headers](https://ebay.to/2vXeEi7) - A tiny computer 
+
+- [DC Toy Motors with a 1:20 Gear Ratio (x4)](https://ebay.to/30iVtgx) - Vroom Vroom
+
+- [L9110s Dual Motor Controller Modules (x2)](https://ebay.to/30k7G4v) - H-Bridges
+
+- [A 5600mAh USB Power Bank Case](https://ebay.to/2YnAQhk) - A plastic case with a charging circuit
+
+- [18650 Li-ion Batteries (x2)](https://ebay.to/2Hl1HFj) - Rechargeable Lithium-ion Batteries
+
+- [A 32 GB microSD Card](https://ebay.to/2E3xrN5) - For the Raspberry Pi
+
+- [M3 Socket Cap Hex Screws - 10mm (x100)](https://ebay.to/2YAyuMr) - Bigger screws
+
+- [M2.5 Socket Cap Hex Screws - 8mm (x50)](https://ebay.to/2YAyuMr) - Smaller screws
+
+- [30cm Dupont Jumper Wires (pack of 120)](https://ebay.to/2HoDgp9) - Handy solder-free cables
+
+- [A Dual Micro USB Splitter Cable](https://ebay.to/2w0Enpy) - For giving the Pi power (**if you're only making a Deci try a normal [1.5m Micro USB Cable](https://ebay.to/2HuW1Hn)**)
+
+<br />
+
+The following tools may also come in handy:
+
+- [A set of Allen Keys](https://ebay.to/2W1emFk) or a [Screwdriver Set](https://ebay.to/2VocQJd)
+
+- [Mini Wire Strippers](https://ebay.to/30r4STo)
+
+- [microSD Card Reader](https://ebay.to/2Q2rFA9)
+
+- [Raspberry Pi Power Adapter](https://ebay.to/2JpZOcL)
+
+<br />
+
+Now, *these* additional items are for making a **Project Rover Deka** (the base and a couple of sensors):
+
+- [A Solderless Breadboard (with 400 tie-points)](https://ebay.to/2Yy6Tvh) - For building custom circuits 
+
+- [A Breadboard Power Supply with Micro USB Input](https://ebay.to/2YsXxRm) - For powering the breadboard...
+
+- [A Mini USB Cable](https://ebay.to/2E5WYFi) - For connecting the Pi to the Arduino (only for initial programming purposes, though)
+
+- [An MPU6050 Sensor Breakout Board](https://ebay.to/2JDDwTX) - An accelerometer, gyroscope, and thermometer all-in-one!
+
+- [An HC-SR04 Ultrasonic Sensor](https://ebay.to/2VkJJqd) - A distance-measuring sensor
+
+- [An Arduino Nano-compatible Board](https://ebay.to/2vUEt2f) - A less-powerful tiny computer designed specifically for programming custom circuits
 
 
-| Item                                                                                                                         | Description                                                     |
-| :--------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- |
-| [Rasbperry Pi Zero WH](https://www.buyapi.ca/product/raspberry-pi-zero-wireless-wh-pre-soldered-header/) [$20]               | A tiny computer                                                 |
-| [USB Power Bank (for 2 batteries)](https://bit.ly/powerbank-botinabox) [$2*]                                                 | A plastic battery holder with a circuit board for charging them |
-| [18650 Batteries (x2)](https://www.banggood.com/custlink/v3mKW0nIHZ) [$16*]                                                  | Li-ion batteries for holding power                              |
-| [Micro/Mini USB Cord](https://www.buyapi.ca/product/sparkfun-cerberus-usb-cable-6ft/) [$10]                                  | A high-quality cord for giving things power                     |
-| [Accelerometer/Gyro/Temp Sensor](https://www.banggood.com/custlink/3GvKCeb8Hb) [$7*]                                         | MPU6050 sensor breakout board                                   |
-| [DC Toy Motors (x4)](https://www.banggood.com/custlink/DDKKc6N9Ff) [$12*]                                                    | 120:1 Gear Ratio                                                |
-| [L9110 Dual-Motor Controllers](https://www.banggood.com/custlink/3GGvreNS8v) [$10*]                                          | H-Bridges that let the Pi communicate with the motors           |
-| [Dupont Cables - 30cm](https://www.banggood.com/custlink/m33GW0AZIy) [$10*]                                                  | Solderless connection wires                                     |
-| [10 mm M3 Screws (x50)](https://www.amazon.ca/gp/product/B00W97A674/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) [$10*] | Small screws for putting the kit together                       |
-| [10 mm M2.5 Screws (x10)](https://www.banggood.com/custlink/v333r0N9SJ) [$7*]                                                | Smaller screws (some parts have smaller holes)                  |
-| [microSD Card](https://www.buyapi.ca/product/microsd-card-16-gb-class-10-blank/) [$10]                                       | At least 16GB - for the Pi                                      |
-| [Ultrasonic Sensor](https://www.banggood.com/custlink/mG3Kc6Q8St) [$8*]                                                      | HC-SR04 sensor for distance measurement                         |
-| [LED Matrix](https://www.banggood.com/custlink/3GGvcBbiZL) [$10*]                                                            | Shiny 8x8 Matrix powered by a MAX7219 microcontroller           |
+<br />
+
+Additionally, *these* items along with the ones above can be used to make a **Project Rover Hecto** (the base, a couple of sensors, and more!):
+
+
+- [A ISD1820 Microphone/Speaker Module](https://ebay.to/2JhSwHX) - A microphone and speaker in one
+
+- [A Nokia 5110 LCD Screen](https://ebay.to/2YuIQNM) - A little 84x48 LCD screen for displaying some graphics!
+
+- [An RGB LED Module](https://ebay.to/2YwCY6K) - All the colours of the rainbow can be programmed into this little lightbulb!
+
+- [A Breadboard Starter Kit](https://ebay.to/2vUE67R) - Some buttons, resistors, potentiometers, lights and stuff for playing around with your breadboard
+
+- [An 8x8 LED Matrix (MAX7219)](https://ebay.to/2WNZR5a) - A shiny LED matrix                                                                                
+
+<br />
+
+And, if you want to take the Raspberry Pi Zero W out of its case and use it as a mini desktop computer (it's not really meant for that, but don't let that stop you), you might need these things:
+
+- [Mini HDMI to HDMI Adapter](https://ebay.to/2HoKPw9)
+
+- [HDMI Cable](https://ebay.to/30jvTIo)
+
+- [USB OTG HUB](https://ebay.to/2vZmk3g)
+
+- [Wireless Keyboard/Mouse](https://ebay.to/2VER7BC)
+
+
+Finally, if you want to just use the Pi Zero W with an older TV monitor that doesn't support HDMI, you could try some of these (though only the ones that work with your particular setup):
+
+- [HDMI to RCA Converter](https://ebay.to/2VtEIM8)
+
+- [RCA Cable](https://ebay.to/2VA7JdG)
+
+- [HDMI to DVI Cable](https://ebay.to/2YyydcR)
+
+- [HDMI to VGA Converter](https://ebay.to/2vYdJ0U)
+
+- [VGA Cable](https://ebay.to/2HrOYiI)
+
+- [RF Modulator](https://ebay.to/2VmkbJ3)
+
+<br />
+
+Phew, all done! :)
 
 **Please let me know if any of these links don't work or the products are out-of-stock by e-mailing [matthew@botinabox.ca](mailto:matthew@botinabox.ca)**
 
