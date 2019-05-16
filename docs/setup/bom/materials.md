@@ -63,7 +63,6 @@ Now, *these* additional items are for making a **Project Rover Deka** (the base 
 
 - [An Arduino Nano-compatible Board](https://ebay.to/2vUEt2f) - A less-powerful tiny computer designed specifically for programming custom circuits
 
-
 <br />
 
 Additionally, *these* items along with the ones above can be used to make a **Project Rover Hecto** (the base, a couple of sensors, and more!):
@@ -91,6 +90,7 @@ And, if you want to take the Raspberry Pi Zero W out of its case and use it as a
 
 - [Wireless Keyboard/Mouse](https://ebay.to/2VER7BC)
 
+<br />
 
 Finally, if you want to just use the Pi Zero W with an older TV monitor that doesn't support HDMI, you could try some of these (though only the ones that work with your particular setup):
 
