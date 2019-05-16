@@ -5,6 +5,8 @@ parent: Printing
 nav_order: 5
 ---
 
+{% include model-viewer.html file="battery-bank-box" alt="Project Rover's Battery Bank Box - version 0.5.3" %}
+
 The Battery Box is a part that fits onto the Top Mount with two to four M3 screws.
 
 The Battery Box takes quite a bit of plastic to print, and I'll see what I can do to make it print faster in the near future.
@@ -18,5 +20,3 @@ Printing Specifications:
 - Needs Supports: No
 - Needs Raft: No
 - Skirt Recommended: Yes
-
-Soon, a timelapse of a successful Battery Box print will be linked below:

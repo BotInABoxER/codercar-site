@@ -5,6 +5,9 @@ parent: Printing
 nav_order: 3
 ---
 
+
+{% include model-viewer.html file="body" alt="Project Rover's Body - version 0.5.3" %}
+
 The Body part includes mounts for the Raspberry Pi Zero W, four Motors, and two Motor Controllers. The Body also includes structures for placing the Top Mount (which houses the Battery Box and optionally a Breadboard Mount) and two Front Mounts (which can house an Ultrasonic Sensor and an 8x8 LED Matrix).
 
 The Body is the biggest single piece of the kit, and therefore it takes the longest to print.
@@ -18,5 +21,3 @@ Printing Specifications:
 - Needs Supports: No
 - Needs Raft: No
 - Skirt Recommended: Yes
-
-Soon, a timelapse of a successful Body print will be linked below:

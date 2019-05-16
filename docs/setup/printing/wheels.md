@@ -5,6 +5,9 @@ parent: Printing
 nav_order: 8
 ---
 
+{% include model-viewer.html file="wheel" alt="Project Rover's Battery Bank Wheel - version 0.5.3" %}
+
+
 The Wheels fit onto the shafts of the Motors, and a Project Rover kit needs four of them. They are different from the wheels that normally come with the yellow DC Motors in that they have longer shafts so they will fit.
 
 Also, starting in Version 0.5.2, each Wheel has tiny traction bumps around it, with actually do help with maneuverability on wood/tile floors.

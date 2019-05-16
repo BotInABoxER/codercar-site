@@ -5,6 +5,8 @@ parent: Printing
 nav_order: 4
 ---
 
+{% include model-viewer.html file="top-mount" alt="Project Rover's Top Mount - version 0.5.3" %}
+
 The Top Mount is a part that fits onto the Body, and it has M3 screw holes that allow for the attachment of a number of different things, including a Battery Box, a Breadboard Mount, and more.
 
 The Top Mount is the second-biggest single piece of the kit, but it takes a lot less plastic to print it than the Body takes.
@@ -18,5 +20,3 @@ Printing Specifications:
 - Needs Supports: No
 - Needs Raft: No
 - Skirt Recommended: Yes
-
-Soon, a timelapse of a successful Top Mount print will be linked below:

@@ -5,6 +5,8 @@ parent: Printing
 nav_order: 6
 ---
 
+{% include model-viewer.html file="battery-bank-box-lid" alt="Project Rover's Battery Bank Box Lid - version 0.5.3" %}
+
 The Battery Box Lid is a part that fits onto the Battery Box without screws.
 
 In the near future, I'll be updating it with a hole so you can see the Power Bank's light through the lid.
@@ -18,5 +20,3 @@ Printing Specifications:
 - Needs Supports: No
 - Needs Raft: No
 - Skirt Recommended: Yes
-
-Soon, a timelapse of a successful Battery Box Lid print will be linked below:
