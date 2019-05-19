@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 
-{% include model-viewer.html file="body" alt="Project Rover's Body - version 0.5.3" %}
+{% include model-viewer.html file="body" alt="CodeRcar's Body - version 0.5.3" %}
 
 The Body part includes mounts for the Raspberry Pi Zero W, four Motors, and two Motor Controllers. The Body also includes structures for placing the Top Mount (which houses the Battery Box and optionally a Breadboard Mount) and two Front Mounts (which can house an Ultrasonic Sensor and an 8x8 LED Matrix).
 

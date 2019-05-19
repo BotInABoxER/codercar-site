@@ -5,7 +5,7 @@ parent: Printing
 nav_order: 6
 ---
 
-{% include model-viewer.html file="battery-bank-box-lid" alt="Project Rover's Battery Bank Box Lid - version 0.5.3" %}
+{% include model-viewer.html file="battery-bank-box-lid" alt="CodeRcar's Battery Bank Box Lid - version 0.5.3" %}
 
 The Battery Box Lid is a part that fits onto the Battery Box without screws.
 

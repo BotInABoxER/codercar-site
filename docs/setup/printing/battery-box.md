@@ -5,7 +5,7 @@ parent: Printing
 nav_order: 5
 ---
 
-{% include model-viewer.html file="battery-bank-box" alt="Project Rover's Battery Bank Box - version 0.5.3" %}
+{% include model-viewer.html file="battery-bank-box" alt="CodeRcar's Battery Bank Box - version 0.5.3" %}
 
 The Battery Box is a part that fits onto the Top Mount with two to four M3 screws.
 

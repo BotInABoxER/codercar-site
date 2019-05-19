@@ -6,7 +6,7 @@ parent: About
 nav_order: 2
 ---
 
-Project Rover is in active development. As such, things will change, as the kit is incrementally improved over time.
+CodeRcar is in active development. As such, things will change, as the kit is incrementally improved over time.
 
 Little releases (0.0.x) change small details, and sometimes involve new printed parts, updates to non-model files, or non-dramatic changes to existing parts. These might be minor/cosmetic/optional updates.
 

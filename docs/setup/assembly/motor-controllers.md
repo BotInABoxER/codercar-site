@@ -12,7 +12,7 @@ First, take a Motor Controller and place it in one of the rectangular divot with
 {% include image.html title="Installing the M2.5 Screws" alt="A blue, rectangular motor controller with green terminals sits in a grey, 3D-printed robot car chassis. Two silver M2.5 screws are attached to the holes closest to the edge of the chassis" links="motorcontroller-mount-2.5screws.jpg" %}
 (This site uses [PhotoSwipe](https://photoswipe.com), so click/tap on any picture to make it huge if you need to see it better.)
 
-Now that the smaller screws are in place. Put two M3 screws in the other holes, and repeat the same process when tightening them. Repeat the process for both of the Controllers, and your Project Rover's Body should look a little something like this on either side:
+Now that the smaller screws are in place. Put two M3 screws in the other holes, and repeat the same process when tightening them. Repeat the process for both of the Controllers, and your CodeRcar's Body should look a little something like this on either side:
 
 {% include image.html title="Motor Controllers in Place" alt="A blue, rectangular motor controller with green terminals sits in a grey, 3D-printed robot car chassis. Two silver M2.5 screws are attached to the holes closest to the edge of the chassis, and two black M3 screws are attached to the other two holes" links="motor-controllermount-finished.jpg" %}
 

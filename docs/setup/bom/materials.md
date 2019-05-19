@@ -7,13 +7,13 @@ nav_order: 3
 
 ### Bill of Materials
 
-This page is a list of materials that you will need to build your very own Project Rover robot.
+This page is a list of materials that you will need to build your very own CodeRcar robot.
 
-**Every product link on this page points to an eBay listing, but you can also buy the parts you need on the [Bot-In-a-Box Store](https://botinabox.ca/shop). On the store you'll also find Amazon.ca links for many of the same products, if you go onto a given product's page. To be honest, I would appreciate it if you bought the products you need from one of the eBay/Amazon links, and not from the store itself. (I make a bit of money off each sale either way, but with eBay/Amazon you don't pay any extra because I don't have to mark the orders up, and they'll ship faster.) Anyway, that's my little disclaimer. Enjoy Project Rover's Site!**
+**Every product link on this page points to an eBay listing, but you can also buy the parts you need on the [Bot-In-a-Box Store](https://botinabox.ca/shop). On the store you'll also find Amazon.ca links for many of the same products, if you go onto a given product's page. To be honest, I would appreciate it if you bought the products you need from one of the eBay/Amazon links, and not from the store itself. (I make a bit of money off each sale either way, but with eBay/Amazon you don't pay any extra because I don't have to mark the orders up, and they'll ship faster.) Anyway, that's my little disclaimer. Enjoy CodeRcar's Site!**
 
-It's worth mentioning that Project Rover is a DIY kit, and while it has been designed to be as easy to build as possible, the process is quite involved, and requires access to both a 3D printer and a soldering iron. It is recommended to read through at least the Printing and Assembly portions of this site before diving in and purchasing all the components you'll need, if only to ensure you know into what it is you're getting yourself.
+It's worth mentioning that CodeRcar is a DIY kit, and while it has been designed to be as easy to build as possible, the process is quite involved, and requires access to both a 3D printer and a soldering iron. It is recommended to read through at least the Printing and Assembly portions of this site before diving in and purchasing all the components you'll need, if only to ensure you know into what it is you're getting yourself.
 
-The following items are necessary for building a **Project Rover Deci** (basically the absolute minimum to get a Project Rover up and rolling):
+The following items are necessary for building a **CodeRcar Deci** (basically the absolute minimum to get a CodeRcar up and rolling):
 
 - [A Raspberry Pi Zero W with soldered male headers](https://ebay.to/2vXeEi7) - A tiny computer 
 
@@ -49,7 +49,7 @@ The following tools may also come in handy:
 
 <br />
 
-Now, *these* additional items are for making a **Project Rover Deka** (the base and a couple of sensors):
+Now, *these* additional items are for making a **CodeRcar Deka** (the base and a couple of sensors):
 
 - [A Solderless Breadboard (with 400 tie-points)](https://ebay.to/2Yy6Tvh) - For building custom circuits 
 
@@ -65,7 +65,7 @@ Now, *these* additional items are for making a **Project Rover Deka** (the base 
 
 <br />
 
-Additionally, *these* items along with the ones above can be used to make a **Project Rover Hecto** (the base, a couple of sensors, and more!):
+Additionally, *these* items along with the ones above can be used to make a **CodeRcar Hecto** (the base, a couple of sensors, and more!):
 
 
 - [A ISD1820 Microphone/Speaker Module](https://ebay.to/2JhSwHX) - A microphone and speaker in one
@@ -114,9 +114,9 @@ Phew, all done! :)
 
 Affiliate Link Disclaimer:
 
-Project Rover is an open-source project. As such, I don't make money off directly selling proprietary kits, but rely on affiliate e-commerce links to get a bit of income.
+CodeRcar is an open-source project. As such, I don't make money off directly selling proprietary kits, but rely on affiliate e-commerce links to get a bit of income.
 Though, obviously, there are a lot of places to buy things online, and if you can find a better price for an item somewhere else you may as well buy it there.
 
 Some open-source projects have donation buttons, while others have links to the maintainers' product wishlists.
-But, if you appreciate the work it took to create Project Rover, consider the affiliate links like a combination of the two, except *you* get the things you need to build your very own Project Rover.
+But, if you appreciate the work it took to create CodeRcar, consider the affiliate links like a combination of the two, except *you* get the things you need to build your very own CodeRcar.
  - Sincerely, [Matthew Piercey](https://facebook.com/mtpiercey), owner of Bot-In-a-Box Educational Robotics

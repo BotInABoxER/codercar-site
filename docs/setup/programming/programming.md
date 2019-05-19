@@ -4,4 +4,4 @@ title: Programming
 nav_order: 7
 ---
 
-Here's how you program Project Rover
+Here's how you program CodeRcar

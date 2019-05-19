@@ -15,9 +15,9 @@ That's it, actually. So, what you have to do is fairly simple: connect the pins 
 
 For an easy reference, you can print out the [Wiring Cheat Sheet]({{ site.url }}/assets/files/truth_tables.pdf) PDF, which has a spot for writing your own Truth Tables. More on them in a bit.
 
-Now that you've gathered all the materials, you can start wiring. Position your Project Rover Body so the Pi is positioned the same way it's shown on your Cheat Sheet. The red wires should go from the VCC pins on the Motor Controllers to the two 5V pins on the Pi. The black wires should go from the GND pins on the Motor Controllers to any two of the GND pins on the Pi. As for the other four wires per Controller, they can go to any GPIO port, excpet GPIO2 and GPIO3 (because they're used for other things, like the [I<sup>2</sup>C](https://www.i2c-bus.org/) protocol).
+Now that you've gathered all the materials, you can start wiring. Position your CodeRcar Body so the Pi is positioned the same way it's shown on your Cheat Sheet. The red wires should go from the VCC pins on the Motor Controllers to the two 5V pins on the Pi. The black wires should go from the GND pins on the Motor Controllers to any two of the GND pins on the Pi. As for the other four wires per Controller, they can go to any GPIO port, excpet GPIO2 and GPIO3 (because they're used for other things, like the [I<sup>2</sup>C](https://www.i2c-bus.org/) protocol).
 
-If you have one of the newer Project Rover Top Mounts (version 0.5.2 onward), you can thread the wires through the wire holder loops at either end of the Top Mount before connecting them to your Pi if you want to have less of a mess when you're finished.
+If you have one of the newer CodeRcar Top Mounts (version 0.5.2 onward), you can thread the wires through the wire holder loops at either end of the Top Mount before connecting them to your Pi if you want to have less of a mess when you're finished.
 
 Now, you don't have to, but if you have coloured markers/pens corresponding to the other wires' colours, you can circle the pin numbers on the Cheat Sheet to which each of the wires is connected. Or, you can just use a pencil to circle the pin numbers.
 

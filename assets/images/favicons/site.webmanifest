@@ -1,8 +1,7 @@
 {
-    "name": "Project Rover",
-    "short_name": "Project Rover",
-    "icons": [
-        {
+    "name": "CodeRcar's Site",
+    "short_name": "CodeRcar",
+    "icons": [{
             "src": "android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
