@@ -54,7 +54,7 @@
         {% endunless %}
         <div id="main-content" class="page-content" role="main">
           {{ content }}
-
+          {% include footer.html %}
           {% if page.has_children == true and page.has_toc != false %}
           <hr>
           <h2 class="text-delta">Table of contents</h2>
