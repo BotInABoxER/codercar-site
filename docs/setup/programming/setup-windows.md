@@ -40,7 +40,7 @@ parent: Programming
 
 ## Full Instructions
 
-Step 0: Determine your OS's architecture
+### Step 0: Determine your OS's architecture
 - Press the Windows logo button on your keyboard.
 - Type "System Information" into the searchbar.
 - Click on the System Information program.
