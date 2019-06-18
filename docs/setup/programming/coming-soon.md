@@ -5,8 +5,7 @@ nav_order: 5
 parent: Programming
 ---
 
-- ICEcoder
-- Jekyll
-- Docs Site
+- Theia IDE Integration
+- Jekyll Tutorial
 - LED Matrix Editor
-- More Tutorials
+- More Programming Tutorials

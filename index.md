@@ -21,7 +21,10 @@ CodeRcar is currently in full-time development, so expect things to change (*dra
 
 Current Version:
 
-0.5.1
+0.5.3
 {: .label .label-green }
+
+Beta
+{: .label .label-yellow }
 
 {% include video.html foureighty="0.5.1-drift.mp4" %}

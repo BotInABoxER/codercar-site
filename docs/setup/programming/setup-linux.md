@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Initial Setup (macOS)
-nav_order: 2
+title: Initial Setup (Linux)
+nav_order: 3
 parent: Programming
 ---
 
